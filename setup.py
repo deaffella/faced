@@ -1,9 +1,10 @@
 from setuptools import setup
 
 
-def readme():
-    with open('README.md') as f:
-        return f.read()
+# def readme():
+#     with open('README.md') as f:
+#         return f.read()
+def readme(): pass
 
 with open('requirements.txt') as f:
     required = f.read().splitlines()
